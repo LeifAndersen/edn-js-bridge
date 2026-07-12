@@ -1,0 +1,11 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ []
+
+ :builds
+ {:lib {:target :npm-module
+        :entries [ednjs.core]
+        :output-dir "dist"}}}

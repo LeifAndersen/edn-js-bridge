@@ -1,0 +1,12 @@
+{
+  "name": "ednjs",
+  "version": "0.0.1",
+  "main": "dist/ednjs.core.js",
+  "types": "dist/ednjs.core.d.ts",
+  "scripts": {
+    "build": "shadow-cljs release lib && cp types/ednjs.core.d.ts dist/"
+  },
+  "devDependencies": {
+    "shadow-cljs": "3.4.11"
+  }
+}
