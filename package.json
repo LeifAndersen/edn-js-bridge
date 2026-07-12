@@ -1,8 +1,9 @@
 {
   "name": "edn-js-bridge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/ednjs.core.js",
   "types": "dist/ednjs.core.d.ts",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "shadow-cljs release lib && cp types/ednjs.core.d.ts dist/"
   },
