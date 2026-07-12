@@ -1,5 +1,5 @@
-ednjs
-=====
+edn-js-bridge
+=============
 
 A VERY simple library that converts edn strings to javascript objects, and back. Nothing more, nothing less.
 
@@ -11,6 +11,8 @@ This library provides only two functions:
 export function parseEDNString(str: string): object;
 export function toEDNString(obj: object, keywordize?: boolean): string;
 ```
+
+Note that [edn-to-js](https://github.com/machellerogden/edn-to-js) has a similar goal, but its use of `fs` makes it more suited to Node...I think.
 
 # Usage
 

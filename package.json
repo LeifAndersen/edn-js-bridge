@@ -1,5 +1,5 @@
 {
-  "name": "ednjs",
+  "name": "edn-js-bridge",
   "version": "0.0.1",
   "main": "dist/ednjs.core.js",
   "types": "dist/ednjs.core.d.ts",
